@@ -41,10 +41,6 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://dam.api.gogemini.io";
-            // Configure API key authorization: Authorization
-            config.AddApiKey("Authorization", "YOUR_API_KEY");
-            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new DamBatchUploadAssetsRequest(); // DamBatchUploadAssetsRequest | 
@@ -98,7 +94,7 @@ catch (ApiException e)
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -138,10 +134,6 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://dam.api.gogemini.io";
-            // Configure API key authorization: Authorization
-            config.AddApiKey("Authorization", "YOUR_API_KEY");
-            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new DamBatchUploadAssetsRequest(); // DamBatchUploadAssetsRequest | 
@@ -195,7 +187,7 @@ catch (ApiException e)
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -235,10 +227,6 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://dam.api.gogemini.io";
-            // Configure API key authorization: Authorization
-            config.AddApiKey("Authorization", "YOUR_API_KEY");
-            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new DamCreateAssetRequest(); // DamCreateAssetRequest | 
@@ -292,7 +280,7 @@ catch (ApiException e)
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -332,10 +320,6 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://dam.api.gogemini.io";
-            // Configure API key authorization: Authorization
-            config.AddApiKey("Authorization", "YOUR_API_KEY");
-            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new DamCreateAssetRequest(); // DamCreateAssetRequest | 
@@ -389,7 +373,7 @@ catch (ApiException e)
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -429,10 +413,6 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://dam.api.gogemini.io";
-            // Configure API key authorization: Authorization
-            config.AddApiKey("Authorization", "YOUR_API_KEY");
-            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new DamGetAssetByCodeRequest(); // DamGetAssetByCodeRequest | 
@@ -486,7 +466,7 @@ catch (ApiException e)
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -526,10 +506,6 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://dam.api.gogemini.io";
-            // Configure API key authorization: Authorization
-            config.AddApiKey("Authorization", "YOUR_API_KEY");
-            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new DamGetAssetByCodeRequest(); // DamGetAssetByCodeRequest | 
@@ -583,7 +559,7 @@ catch (ApiException e)
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -623,10 +599,6 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://dam.api.gogemini.io";
-            // Configure API key authorization: Authorization
-            config.AddApiKey("Authorization", "YOUR_API_KEY");
-            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new DamListAssetsRequest(); // DamListAssetsRequest | 
@@ -680,7 +652,7 @@ catch (ApiException e)
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -720,10 +692,6 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://dam.api.gogemini.io";
-            // Configure API key authorization: Authorization
-            config.AddApiKey("Authorization", "YOUR_API_KEY");
-            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new DamListAssetsByCodesRequest(); // DamListAssetsByCodesRequest | 
@@ -777,7 +745,7 @@ catch (ApiException e)
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -817,10 +785,6 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://dam.api.gogemini.io";
-            // Configure API key authorization: Authorization
-            config.AddApiKey("Authorization", "YOUR_API_KEY");
-            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new DamListAssetsByCodesRequest(); // DamListAssetsByCodesRequest | 
@@ -874,7 +838,7 @@ catch (ApiException e)
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -914,10 +878,6 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://dam.api.gogemini.io";
-            // Configure API key authorization: Authorization
-            config.AddApiKey("Authorization", "YOUR_API_KEY");
-            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new DamListAssetsByIdsRequest(); // DamListAssetsByIdsRequest | 
@@ -971,7 +931,7 @@ catch (ApiException e)
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -1011,10 +971,6 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://dam.api.gogemini.io";
-            // Configure API key authorization: Authorization
-            config.AddApiKey("Authorization", "YOUR_API_KEY");
-            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new DamListAssetsByIdsRequest(); // DamListAssetsByIdsRequest | 
@@ -1068,7 +1024,7 @@ catch (ApiException e)
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -1108,10 +1064,6 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://dam.api.gogemini.io";
-            // Configure API key authorization: Authorization
-            config.AddApiKey("Authorization", "YOUR_API_KEY");
-            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new DamListAssetsRequest(); // DamListAssetsRequest | 
@@ -1165,7 +1117,7 @@ catch (ApiException e)
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -1205,10 +1157,6 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://dam.api.gogemini.io";
-            // Configure API key authorization: Authorization
-            config.AddApiKey("Authorization", "YOUR_API_KEY");
-            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new DamUpdateAssetRequest(); // DamUpdateAssetRequest | 
@@ -1262,7 +1210,7 @@ catch (ApiException e)
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -1302,10 +1250,6 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://dam.api.gogemini.io";
-            // Configure API key authorization: Authorization
-            config.AddApiKey("Authorization", "YOUR_API_KEY");
-            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new DamUpdateAssetRequest(); // DamUpdateAssetRequest | 
@@ -1359,7 +1303,7 @@ catch (ApiException e)
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 

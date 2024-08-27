@@ -85,10 +85,6 @@ namespace Example
 
             Configuration config = new Configuration();
             config.BasePath = "https://dam.api.gogemini.io";
-            // Configure API key authorization: Authorization
-            config.ApiKey.Add("Authorization", "YOUR_API_KEY");
-            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // config.ApiKeyPrefix.Add("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new DamBatchUploadAssetsRequest(); // DamBatchUploadAssetsRequest | 
@@ -162,20 +158,5 @@ Class | Method | HTTP request | Description
 <a id="documentation-for-authorization"></a>
 ## Documentation for Authorization
 
-
-Authentication schemes defined for the API:
-<a id="Authorization"></a>
-### Authorization
-
-- **Type**: API key
-- **API key parameter name**: Authorization
-- **Location**: HTTP header
-
-<a id="standardAuthorization"></a>
-### standardAuthorization
-
-- **Type**: OAuth
-- **Flow**: implicit
-- **Authorization URL**: 
-- **Scopes**: N/A
+Endpoints do not require authorization.
 

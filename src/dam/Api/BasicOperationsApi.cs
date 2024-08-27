@@ -16,7 +16,6 @@ using System.Linq;
 using System.Net;
 using System.Net.Mime;
 using dam.Client;
-using dam.Client.Auth;
 using dam.Model;
 
 namespace dam.Api
@@ -843,11 +842,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.BatchUploadAssets";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<DamBatchUploadAssetsResponse>("/dam.Dam/BatchUploadAssets", localVarRequestOptions, this.Configuration);
@@ -922,11 +916,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.BatchUploadAssets";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<DamBatchUploadAssetsResponse>("/dam.Dam/BatchUploadAssets", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -999,11 +988,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.BatchUploadAssets_0";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<DamBatchUploadAssetsResponse>("/dam/batch_upload_assets", localVarRequestOptions, this.Configuration);
@@ -1078,11 +1062,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.BatchUploadAssets_0";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<DamBatchUploadAssetsResponse>("/dam/batch_upload_assets", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1155,11 +1134,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.CreateAsset";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<DamAsset>("/dam.Dam/CreateAsset", localVarRequestOptions, this.Configuration);
@@ -1234,11 +1208,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.CreateAsset";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<DamAsset>("/dam.Dam/CreateAsset", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1311,11 +1280,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.CreateAsset_0";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<DamAsset>("/dam/create_asset", localVarRequestOptions, this.Configuration);
@@ -1390,11 +1354,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.CreateAsset_0";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<DamAsset>("/dam/create_asset", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1467,11 +1426,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.GetAssetByCode";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<DamAsset>("/dam.Dam/GetAssetByCode", localVarRequestOptions, this.Configuration);
@@ -1546,11 +1500,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.GetAssetByCode";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<DamAsset>("/dam.Dam/GetAssetByCode", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1623,11 +1572,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.GetAssetByCode_0";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<DamAsset>("/dam/get_asset_by_code", localVarRequestOptions, this.Configuration);
@@ -1702,11 +1646,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.GetAssetByCode_0";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<DamAsset>("/dam/get_asset_by_code", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1779,11 +1718,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.ListAssets";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<DamListAssetsResponse>("/dam.Dam/ListAssets", localVarRequestOptions, this.Configuration);
@@ -1858,11 +1792,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.ListAssets";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<DamListAssetsResponse>("/dam.Dam/ListAssets", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1935,11 +1864,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.ListAssetsByCodes";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<DamListAssetsByCodesResponse>("/dam.Dam/ListAssetsByCodes", localVarRequestOptions, this.Configuration);
@@ -2014,11 +1938,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.ListAssetsByCodes";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<DamListAssetsByCodesResponse>("/dam.Dam/ListAssetsByCodes", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2091,11 +2010,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.ListAssetsByCodes_0";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<DamListAssetsByCodesResponse>("/dam/list_assets_by_codes", localVarRequestOptions, this.Configuration);
@@ -2170,11 +2084,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.ListAssetsByCodes_0";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<DamListAssetsByCodesResponse>("/dam/list_assets_by_codes", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2247,11 +2156,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.ListAssetsByIds";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<DamListAssetsByIdsResponse>("/dam.Dam/ListAssetsByIds", localVarRequestOptions, this.Configuration);
@@ -2326,11 +2230,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.ListAssetsByIds";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<DamListAssetsByIdsResponse>("/dam.Dam/ListAssetsByIds", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2403,11 +2302,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.ListAssetsByIds_0";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<DamListAssetsByIdsResponse>("/dam/list_assets_by_ids", localVarRequestOptions, this.Configuration);
@@ -2482,11 +2376,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.ListAssetsByIds_0";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<DamListAssetsByIdsResponse>("/dam/list_assets_by_ids", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2559,11 +2448,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.ListAssets_0";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<DamListAssetsResponse>("/dam/list_assets", localVarRequestOptions, this.Configuration);
@@ -2638,11 +2522,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.ListAssets_0";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<DamListAssetsResponse>("/dam/list_assets", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2715,11 +2594,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UpdateAsset";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<DamAsset>("/dam.Dam/UpdateAsset", localVarRequestOptions, this.Configuration);
@@ -2794,11 +2668,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UpdateAsset";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<DamAsset>("/dam.Dam/UpdateAsset", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2871,11 +2740,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UpdateAsset_0";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<DamAsset>("/dam/update_asset", localVarRequestOptions, this.Configuration);
@@ -2950,11 +2814,6 @@ namespace dam.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UpdateAsset_0";
             localVarRequestOptions.OperationIndex = operationIndex;
 
-            // authentication (Authorization) required
-            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
-            {
-                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
-            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<DamAsset>("/dam/update_asset", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
