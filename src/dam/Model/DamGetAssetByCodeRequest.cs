@@ -36,7 +36,10 @@ namespace dam.Model
         /// Initializes a new instance of the <see cref="DamGetAssetByCodeRequest" /> class.
         /// </summary>
         [JsonConstructorAttribute]
-        protected DamGetAssetByCodeRequest() { }
+        protected DamGetAssetByCodeRequest()
+        {
+            this.AdditionalProperties = new Dictionary<string, object>();
+        }
         /// <summary>
         /// Initializes a new instance of the <see cref="DamGetAssetByCodeRequest" /> class.
         /// </summary>
@@ -56,6 +59,7 @@ namespace dam.Model
                 throw new ArgumentNullException("code is a required property for DamGetAssetByCodeRequest and cannot be null");
             }
             this.Code = code;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -71,6 +75,12 @@ namespace dam.Model
         public string Code { get; set; }
 
         /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
+
+        /// <summary>
         /// Returns the string presentation of the object
         /// </summary>
         /// <returns>String presentation of the object</returns>
@@ -80,6 +90,7 @@ namespace dam.Model
             sb.Append("class DamGetAssetByCodeRequest {\n");
             sb.Append("  TenantId: ").Append(TenantId).Append("\n");
             sb.Append("  Code: ").Append(Code).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -98,7 +109,7 @@ namespace dam.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }

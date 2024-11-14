@@ -36,7 +36,10 @@ namespace dam.Model
         /// Initializes a new instance of the <see cref="BatchUploadAssetsRequestFiles" /> class.
         /// </summary>
         [JsonConstructorAttribute]
-        protected BatchUploadAssetsRequestFiles() { }
+        protected BatchUploadAssetsRequestFiles()
+        {
+            this.AdditionalProperties = new Dictionary<string, object>();
+        }
         /// <summary>
         /// Initializes a new instance of the <see cref="BatchUploadAssetsRequestFiles" /> class.
         /// </summary>
@@ -63,6 +66,7 @@ namespace dam.Model
                 throw new ArgumentNullException("mimeType is a required property for BatchUploadAssetsRequestFiles and cannot be null");
             }
             this.MimeType = mimeType;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -84,6 +88,12 @@ namespace dam.Model
         public string MimeType { get; set; }
 
         /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
+
+        /// <summary>
         /// Returns the string presentation of the object
         /// </summary>
         /// <returns>String presentation of the object</returns>
@@ -94,6 +104,7 @@ namespace dam.Model
             sb.Append("  Filename: ").Append(Filename).Append("\n");
             sb.Append("  Size: ").Append(Size).Append("\n");
             sb.Append("  MimeType: ").Append(MimeType).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -112,7 +123,7 @@ namespace dam.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }

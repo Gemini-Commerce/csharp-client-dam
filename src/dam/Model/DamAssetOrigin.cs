@@ -47,6 +47,7 @@ namespace dam.Model
         {
             this.Url = url;
             this.Type = type;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -54,6 +55,12 @@ namespace dam.Model
         /// </summary>
         [DataMember(Name = "url", EmitDefaultValue = false)]
         public string Url { get; set; }
+
+        /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -65,6 +72,7 @@ namespace dam.Model
             sb.Append("class DamAssetOrigin {\n");
             sb.Append("  Url: ").Append(Url).Append("\n");
             sb.Append("  Type: ").Append(Type).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -83,7 +91,7 @@ namespace dam.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }

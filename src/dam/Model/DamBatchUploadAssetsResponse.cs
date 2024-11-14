@@ -39,6 +39,7 @@ namespace dam.Model
         public DamBatchUploadAssetsResponse(List<string> preSignedUrls = default(List<string>))
         {
             this.PreSignedUrls = preSignedUrls;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -46,6 +47,12 @@ namespace dam.Model
         /// </summary>
         [DataMember(Name = "preSignedUrls", EmitDefaultValue = false)]
         public List<string> PreSignedUrls { get; set; }
+
+        /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -56,6 +63,7 @@ namespace dam.Model
             StringBuilder sb = new StringBuilder();
             sb.Append("class DamBatchUploadAssetsResponse {\n");
             sb.Append("  PreSignedUrls: ").Append(PreSignedUrls).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -74,7 +82,7 @@ namespace dam.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }

@@ -327,7 +327,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamBatchUploadAssetsResponse</returns>
-        System.Threading.Tasks.Task<DamBatchUploadAssetsResponse> BatchUploadAssetsAsync(DamBatchUploadAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<DamBatchUploadAssetsResponse> BatchUploadAssetsAsync(DamBatchUploadAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Batch Upload Assets
@@ -340,7 +340,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamBatchUploadAssetsResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<DamBatchUploadAssetsResponse>> BatchUploadAssetsWithHttpInfoAsync(DamBatchUploadAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<DamBatchUploadAssetsResponse>> BatchUploadAssetsWithHttpInfoAsync(DamBatchUploadAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Batch Upload Assets
         /// </summary>
@@ -352,7 +352,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamBatchUploadAssetsResponse</returns>
-        System.Threading.Tasks.Task<DamBatchUploadAssetsResponse> BatchUploadAssets_0Async(DamBatchUploadAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<DamBatchUploadAssetsResponse> BatchUploadAssets_0Async(DamBatchUploadAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Batch Upload Assets
@@ -365,7 +365,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamBatchUploadAssetsResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<DamBatchUploadAssetsResponse>> BatchUploadAssets_0WithHttpInfoAsync(DamBatchUploadAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<DamBatchUploadAssetsResponse>> BatchUploadAssets_0WithHttpInfoAsync(DamBatchUploadAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Create Asset
         /// </summary>
@@ -377,7 +377,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamAsset</returns>
-        System.Threading.Tasks.Task<DamAsset> CreateAssetAsync(DamCreateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<DamAsset> CreateAssetAsync(DamCreateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Create Asset
@@ -390,7 +390,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamAsset)</returns>
-        System.Threading.Tasks.Task<ApiResponse<DamAsset>> CreateAssetWithHttpInfoAsync(DamCreateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<DamAsset>> CreateAssetWithHttpInfoAsync(DamCreateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Create Asset
         /// </summary>
@@ -402,7 +402,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamAsset</returns>
-        System.Threading.Tasks.Task<DamAsset> CreateAsset_0Async(DamCreateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<DamAsset> CreateAsset_0Async(DamCreateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Create Asset
@@ -415,7 +415,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamAsset)</returns>
-        System.Threading.Tasks.Task<ApiResponse<DamAsset>> CreateAsset_0WithHttpInfoAsync(DamCreateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<DamAsset>> CreateAsset_0WithHttpInfoAsync(DamCreateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Get Asset By Code
         /// </summary>
@@ -427,7 +427,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamAsset</returns>
-        System.Threading.Tasks.Task<DamAsset> GetAssetByCodeAsync(DamGetAssetByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<DamAsset> GetAssetByCodeAsync(DamGetAssetByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Get Asset By Code
@@ -440,7 +440,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamAsset)</returns>
-        System.Threading.Tasks.Task<ApiResponse<DamAsset>> GetAssetByCodeWithHttpInfoAsync(DamGetAssetByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<DamAsset>> GetAssetByCodeWithHttpInfoAsync(DamGetAssetByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Get Asset By Code
         /// </summary>
@@ -452,7 +452,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamAsset</returns>
-        System.Threading.Tasks.Task<DamAsset> GetAssetByCode_0Async(DamGetAssetByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<DamAsset> GetAssetByCode_0Async(DamGetAssetByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Get Asset By Code
@@ -465,7 +465,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamAsset)</returns>
-        System.Threading.Tasks.Task<ApiResponse<DamAsset>> GetAssetByCode_0WithHttpInfoAsync(DamGetAssetByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<DamAsset>> GetAssetByCode_0WithHttpInfoAsync(DamGetAssetByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// List Assets
         /// </summary>
@@ -477,7 +477,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamListAssetsResponse</returns>
-        System.Threading.Tasks.Task<DamListAssetsResponse> ListAssetsAsync(DamListAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<DamListAssetsResponse> ListAssetsAsync(DamListAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// List Assets
@@ -490,7 +490,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamListAssetsResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<DamListAssetsResponse>> ListAssetsWithHttpInfoAsync(DamListAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<DamListAssetsResponse>> ListAssetsWithHttpInfoAsync(DamListAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// List Assets By Codes
         /// </summary>
@@ -502,7 +502,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamListAssetsByCodesResponse</returns>
-        System.Threading.Tasks.Task<DamListAssetsByCodesResponse> ListAssetsByCodesAsync(DamListAssetsByCodesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<DamListAssetsByCodesResponse> ListAssetsByCodesAsync(DamListAssetsByCodesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// List Assets By Codes
@@ -515,7 +515,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamListAssetsByCodesResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<DamListAssetsByCodesResponse>> ListAssetsByCodesWithHttpInfoAsync(DamListAssetsByCodesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<DamListAssetsByCodesResponse>> ListAssetsByCodesWithHttpInfoAsync(DamListAssetsByCodesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// List Assets By Codes
         /// </summary>
@@ -527,7 +527,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamListAssetsByCodesResponse</returns>
-        System.Threading.Tasks.Task<DamListAssetsByCodesResponse> ListAssetsByCodes_0Async(DamListAssetsByCodesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<DamListAssetsByCodesResponse> ListAssetsByCodes_0Async(DamListAssetsByCodesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// List Assets By Codes
@@ -540,7 +540,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamListAssetsByCodesResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<DamListAssetsByCodesResponse>> ListAssetsByCodes_0WithHttpInfoAsync(DamListAssetsByCodesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<DamListAssetsByCodesResponse>> ListAssetsByCodes_0WithHttpInfoAsync(DamListAssetsByCodesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// List Assets By Ids
         /// </summary>
@@ -552,7 +552,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamListAssetsByIdsResponse</returns>
-        System.Threading.Tasks.Task<DamListAssetsByIdsResponse> ListAssetsByIdsAsync(DamListAssetsByIdsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<DamListAssetsByIdsResponse> ListAssetsByIdsAsync(DamListAssetsByIdsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// List Assets By Ids
@@ -565,7 +565,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamListAssetsByIdsResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<DamListAssetsByIdsResponse>> ListAssetsByIdsWithHttpInfoAsync(DamListAssetsByIdsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<DamListAssetsByIdsResponse>> ListAssetsByIdsWithHttpInfoAsync(DamListAssetsByIdsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// List Assets By Ids
         /// </summary>
@@ -577,7 +577,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamListAssetsByIdsResponse</returns>
-        System.Threading.Tasks.Task<DamListAssetsByIdsResponse> ListAssetsByIds_0Async(DamListAssetsByIdsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<DamListAssetsByIdsResponse> ListAssetsByIds_0Async(DamListAssetsByIdsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// List Assets By Ids
@@ -590,7 +590,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamListAssetsByIdsResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<DamListAssetsByIdsResponse>> ListAssetsByIds_0WithHttpInfoAsync(DamListAssetsByIdsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<DamListAssetsByIdsResponse>> ListAssetsByIds_0WithHttpInfoAsync(DamListAssetsByIdsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// List Assets
         /// </summary>
@@ -602,7 +602,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamListAssetsResponse</returns>
-        System.Threading.Tasks.Task<DamListAssetsResponse> ListAssets_0Async(DamListAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<DamListAssetsResponse> ListAssets_0Async(DamListAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// List Assets
@@ -615,7 +615,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamListAssetsResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<DamListAssetsResponse>> ListAssets_0WithHttpInfoAsync(DamListAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<DamListAssetsResponse>> ListAssets_0WithHttpInfoAsync(DamListAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Update Asset
         /// </summary>
@@ -627,7 +627,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamAsset</returns>
-        System.Threading.Tasks.Task<DamAsset> UpdateAssetAsync(DamUpdateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<DamAsset> UpdateAssetAsync(DamUpdateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Update Asset
@@ -640,7 +640,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamAsset)</returns>
-        System.Threading.Tasks.Task<ApiResponse<DamAsset>> UpdateAssetWithHttpInfoAsync(DamUpdateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<DamAsset>> UpdateAssetWithHttpInfoAsync(DamUpdateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Update Asset
         /// </summary>
@@ -652,7 +652,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamAsset</returns>
-        System.Threading.Tasks.Task<DamAsset> UpdateAsset_0Async(DamUpdateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<DamAsset> UpdateAsset_0Async(DamUpdateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Update Asset
@@ -665,7 +665,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamAsset)</returns>
-        System.Threading.Tasks.Task<ApiResponse<DamAsset>> UpdateAsset_0WithHttpInfoAsync(DamUpdateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<DamAsset>> UpdateAsset_0WithHttpInfoAsync(DamUpdateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         #endregion Asynchronous Operations
     }
 
@@ -865,7 +865,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamBatchUploadAssetsResponse</returns>
-        public async System.Threading.Tasks.Task<DamBatchUploadAssetsResponse> BatchUploadAssetsAsync(DamBatchUploadAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<DamBatchUploadAssetsResponse> BatchUploadAssetsAsync(DamBatchUploadAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             dam.Client.ApiResponse<DamBatchUploadAssetsResponse> localVarResponse = await BatchUploadAssetsWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -879,7 +879,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamBatchUploadAssetsResponse)</returns>
-        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamBatchUploadAssetsResponse>> BatchUploadAssetsWithHttpInfoAsync(DamBatchUploadAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamBatchUploadAssetsResponse>> BatchUploadAssetsWithHttpInfoAsync(DamBatchUploadAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1011,7 +1011,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamBatchUploadAssetsResponse</returns>
-        public async System.Threading.Tasks.Task<DamBatchUploadAssetsResponse> BatchUploadAssets_0Async(DamBatchUploadAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<DamBatchUploadAssetsResponse> BatchUploadAssets_0Async(DamBatchUploadAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             dam.Client.ApiResponse<DamBatchUploadAssetsResponse> localVarResponse = await BatchUploadAssets_0WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1025,7 +1025,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamBatchUploadAssetsResponse)</returns>
-        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamBatchUploadAssetsResponse>> BatchUploadAssets_0WithHttpInfoAsync(DamBatchUploadAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamBatchUploadAssetsResponse>> BatchUploadAssets_0WithHttpInfoAsync(DamBatchUploadAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1157,7 +1157,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamAsset</returns>
-        public async System.Threading.Tasks.Task<DamAsset> CreateAssetAsync(DamCreateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<DamAsset> CreateAssetAsync(DamCreateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             dam.Client.ApiResponse<DamAsset> localVarResponse = await CreateAssetWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1171,7 +1171,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamAsset)</returns>
-        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamAsset>> CreateAssetWithHttpInfoAsync(DamCreateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamAsset>> CreateAssetWithHttpInfoAsync(DamCreateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1303,7 +1303,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamAsset</returns>
-        public async System.Threading.Tasks.Task<DamAsset> CreateAsset_0Async(DamCreateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<DamAsset> CreateAsset_0Async(DamCreateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             dam.Client.ApiResponse<DamAsset> localVarResponse = await CreateAsset_0WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1317,7 +1317,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamAsset)</returns>
-        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamAsset>> CreateAsset_0WithHttpInfoAsync(DamCreateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamAsset>> CreateAsset_0WithHttpInfoAsync(DamCreateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1449,7 +1449,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamAsset</returns>
-        public async System.Threading.Tasks.Task<DamAsset> GetAssetByCodeAsync(DamGetAssetByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<DamAsset> GetAssetByCodeAsync(DamGetAssetByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             dam.Client.ApiResponse<DamAsset> localVarResponse = await GetAssetByCodeWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1463,7 +1463,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamAsset)</returns>
-        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamAsset>> GetAssetByCodeWithHttpInfoAsync(DamGetAssetByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamAsset>> GetAssetByCodeWithHttpInfoAsync(DamGetAssetByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1595,7 +1595,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamAsset</returns>
-        public async System.Threading.Tasks.Task<DamAsset> GetAssetByCode_0Async(DamGetAssetByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<DamAsset> GetAssetByCode_0Async(DamGetAssetByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             dam.Client.ApiResponse<DamAsset> localVarResponse = await GetAssetByCode_0WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1609,7 +1609,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamAsset)</returns>
-        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamAsset>> GetAssetByCode_0WithHttpInfoAsync(DamGetAssetByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamAsset>> GetAssetByCode_0WithHttpInfoAsync(DamGetAssetByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1741,7 +1741,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamListAssetsResponse</returns>
-        public async System.Threading.Tasks.Task<DamListAssetsResponse> ListAssetsAsync(DamListAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<DamListAssetsResponse> ListAssetsAsync(DamListAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             dam.Client.ApiResponse<DamListAssetsResponse> localVarResponse = await ListAssetsWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1755,7 +1755,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamListAssetsResponse)</returns>
-        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamListAssetsResponse>> ListAssetsWithHttpInfoAsync(DamListAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamListAssetsResponse>> ListAssetsWithHttpInfoAsync(DamListAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1887,7 +1887,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamListAssetsByCodesResponse</returns>
-        public async System.Threading.Tasks.Task<DamListAssetsByCodesResponse> ListAssetsByCodesAsync(DamListAssetsByCodesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<DamListAssetsByCodesResponse> ListAssetsByCodesAsync(DamListAssetsByCodesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             dam.Client.ApiResponse<DamListAssetsByCodesResponse> localVarResponse = await ListAssetsByCodesWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1901,7 +1901,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamListAssetsByCodesResponse)</returns>
-        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamListAssetsByCodesResponse>> ListAssetsByCodesWithHttpInfoAsync(DamListAssetsByCodesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamListAssetsByCodesResponse>> ListAssetsByCodesWithHttpInfoAsync(DamListAssetsByCodesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2033,7 +2033,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamListAssetsByCodesResponse</returns>
-        public async System.Threading.Tasks.Task<DamListAssetsByCodesResponse> ListAssetsByCodes_0Async(DamListAssetsByCodesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<DamListAssetsByCodesResponse> ListAssetsByCodes_0Async(DamListAssetsByCodesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             dam.Client.ApiResponse<DamListAssetsByCodesResponse> localVarResponse = await ListAssetsByCodes_0WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2047,7 +2047,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamListAssetsByCodesResponse)</returns>
-        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamListAssetsByCodesResponse>> ListAssetsByCodes_0WithHttpInfoAsync(DamListAssetsByCodesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamListAssetsByCodesResponse>> ListAssetsByCodes_0WithHttpInfoAsync(DamListAssetsByCodesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2179,7 +2179,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamListAssetsByIdsResponse</returns>
-        public async System.Threading.Tasks.Task<DamListAssetsByIdsResponse> ListAssetsByIdsAsync(DamListAssetsByIdsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<DamListAssetsByIdsResponse> ListAssetsByIdsAsync(DamListAssetsByIdsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             dam.Client.ApiResponse<DamListAssetsByIdsResponse> localVarResponse = await ListAssetsByIdsWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2193,7 +2193,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamListAssetsByIdsResponse)</returns>
-        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamListAssetsByIdsResponse>> ListAssetsByIdsWithHttpInfoAsync(DamListAssetsByIdsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamListAssetsByIdsResponse>> ListAssetsByIdsWithHttpInfoAsync(DamListAssetsByIdsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2325,7 +2325,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamListAssetsByIdsResponse</returns>
-        public async System.Threading.Tasks.Task<DamListAssetsByIdsResponse> ListAssetsByIds_0Async(DamListAssetsByIdsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<DamListAssetsByIdsResponse> ListAssetsByIds_0Async(DamListAssetsByIdsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             dam.Client.ApiResponse<DamListAssetsByIdsResponse> localVarResponse = await ListAssetsByIds_0WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2339,7 +2339,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamListAssetsByIdsResponse)</returns>
-        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamListAssetsByIdsResponse>> ListAssetsByIds_0WithHttpInfoAsync(DamListAssetsByIdsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamListAssetsByIdsResponse>> ListAssetsByIds_0WithHttpInfoAsync(DamListAssetsByIdsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2471,7 +2471,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamListAssetsResponse</returns>
-        public async System.Threading.Tasks.Task<DamListAssetsResponse> ListAssets_0Async(DamListAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<DamListAssetsResponse> ListAssets_0Async(DamListAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             dam.Client.ApiResponse<DamListAssetsResponse> localVarResponse = await ListAssets_0WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2485,7 +2485,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamListAssetsResponse)</returns>
-        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamListAssetsResponse>> ListAssets_0WithHttpInfoAsync(DamListAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamListAssetsResponse>> ListAssets_0WithHttpInfoAsync(DamListAssetsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2617,7 +2617,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamAsset</returns>
-        public async System.Threading.Tasks.Task<DamAsset> UpdateAssetAsync(DamUpdateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<DamAsset> UpdateAssetAsync(DamUpdateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             dam.Client.ApiResponse<DamAsset> localVarResponse = await UpdateAssetWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2631,7 +2631,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamAsset)</returns>
-        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamAsset>> UpdateAssetWithHttpInfoAsync(DamUpdateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamAsset>> UpdateAssetWithHttpInfoAsync(DamUpdateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2763,7 +2763,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of DamAsset</returns>
-        public async System.Threading.Tasks.Task<DamAsset> UpdateAsset_0Async(DamUpdateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<DamAsset> UpdateAsset_0Async(DamUpdateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             dam.Client.ApiResponse<DamAsset> localVarResponse = await UpdateAsset_0WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2777,7 +2777,7 @@ namespace dam.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (DamAsset)</returns>
-        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamAsset>> UpdateAsset_0WithHttpInfoAsync(DamUpdateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<dam.Client.ApiResponse<DamAsset>> UpdateAsset_0WithHttpInfoAsync(DamUpdateAssetRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)

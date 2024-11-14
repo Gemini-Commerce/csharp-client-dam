@@ -39,6 +39,7 @@ namespace dam.Model
         public DamListAssetsByCodesResponse(List<DamAsset> assets = default(List<DamAsset>))
         {
             this.Assets = assets;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -46,6 +47,12 @@ namespace dam.Model
         /// </summary>
         [DataMember(Name = "assets", EmitDefaultValue = false)]
         public List<DamAsset> Assets { get; set; }
+
+        /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -56,6 +63,7 @@ namespace dam.Model
             StringBuilder sb = new StringBuilder();
             sb.Append("class DamListAssetsByCodesResponse {\n");
             sb.Append("  Assets: ").Append(Assets).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -74,7 +82,7 @@ namespace dam.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }
